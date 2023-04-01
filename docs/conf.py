@@ -15,6 +15,12 @@ author = 'Anthony Castro-Yoskovich'
 
 sys.path.insert(0, os.path.abspath('../../'))
 sys.path.insert(0, os.path.abspath('.'))
+sys.path.insert(0, os.path.abspath('../src/'))
+
+print('-'*50)
+print('Printing system path')
+print(sys.path)
+print('-'*50)
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

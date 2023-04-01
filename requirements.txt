@@ -32,4 +32,3 @@ sphinxcontrib-qthelp==1.0.3
 sphinxcontrib-serializinghtml==1.1.5
 tomli==2.0.1
 urllib3==1.26.15
--e git+ssh://git@github.com/ayoskovich/utencilos.git@c288ae0afd14fdbe69ff5d748565a3bb803e2de9#egg=utencilos

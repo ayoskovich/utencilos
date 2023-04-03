@@ -6,13 +6,15 @@
 Welcome to utencilos's documentation!
 =====================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+``utencilos`` is a collection of useful code I use that helps when working with data.
 
-.. autofunction:: utencilos.general.checkin
+Quickstart
+----------
 
+.. code-block:: python
 
+   from utencilos.general import squish
+   squish(mydf, 'colname')
 
 Indices and tables
 ==================
@@ -20,3 +22,9 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   reference
